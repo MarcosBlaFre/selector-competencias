@@ -12,7 +12,8 @@ $(document).ready(function () {
   $('#selector-competencias').select2({
     data: catalogo,
     placeholder: 'Escribe el código o nombre de la competencia',
-    allowClear: true
+    allowClear: true,
+    closeOnSelect: false // Mantener el desplegable abierto tras cada selección
   });
 
   $('#selector-competencias').on('change', function () {

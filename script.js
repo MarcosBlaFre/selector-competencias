@@ -2,7 +2,7 @@
 const catalogo = [
   { id: 'C001', text: 'C001 - Liderazgo' },
   { id: 'C002', text: 'C002 - Trabajo en equipo' },
-  { id: 'C003', text: 'C003 - Comunicación' },
+  { id: 'C003', text: 'C003 - Comunicaciones' },
   { id: 'C004', text: 'C004 - Resolución de problemas' },
   { id: 'C005', text: 'C005 - Pensamiento crítico' }
 ];

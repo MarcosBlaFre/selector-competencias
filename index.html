@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector de Competencias</title>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <style>
+    #competencias-seleccionadas {
+      margin-top: 20px;
+      padding: 0;
+      list-style: none;
+    }
+    #competencias-seleccionadas li {
+      padding: 10px;
+      margin-bottom: 5px;
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: move;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Selecciona Competencias</h2>
+  <select id="selector-competencias" multiple="multiple" style="width: 50%"></select>
+
+  <ul id="competencias-seleccionadas"></ul>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
